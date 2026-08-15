@@ -8,7 +8,7 @@ Instructions for setting up and running this project will go here.
 
 ## Features
 
-- Feature 1
+
 - Feature 2
 - Feature 3
 
