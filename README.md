@@ -11,6 +11,7 @@ Instructions for setting up and running this project will go here.
 
 - Feature 2
 - Feature 3
+- Feature 4
 
 ## Installation
 
