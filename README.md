@@ -64,3 +64,10 @@ Later, each topic may include a quiz. Students will be able to type their calcul
 ## Current stage
 
 At the moment, this is only a plan for the website. Visitors should be able to read what is coming, but they cannot open lessons, use a calculator, or complete quizzes yet.
+
+
+
+## main pages
+
+when you open the classes in the menu bar, it will open a funny main page with a funny scentence.
+there will also open a second menu bar where you see the different topics of the classes

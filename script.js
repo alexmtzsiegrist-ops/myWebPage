@@ -1,8 +1,17 @@
 const menuToggle = document.querySelector('.menu-toggle');
 const sidebar = document.querySelector('.sidebar');
+const appShell = document.querySelector('.app-shell');
 
 menuToggle.addEventListener('click', () => {
-  const isOpen = sidebar.classList.toggle('open');
+  if (window.innerWidth <= 680) {
+    sidebar.classList.toggle('open');
+  } else {
+    appShell.classList.toggle('collapsed');
+  }
+
+  const isOpen = window.innerWidth <= 680
+    ? sidebar.classList.contains('open')
+    : !appShell.classList.contains('collapsed');
   menuToggle.setAttribute('aria-expanded', String(isOpen));
 });
 
