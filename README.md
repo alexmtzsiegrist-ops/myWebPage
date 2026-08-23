@@ -44,7 +44,7 @@ The Mathematics menu may include:
 
 Each topic will have its own page with an explanation and worked examples.
 
-## Topic pages
+## Topic page
 
 A topic page will explain:
 
