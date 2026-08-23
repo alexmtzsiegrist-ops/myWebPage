@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A friendly learning space for students, coming soon.">
+  <title>OpenBook | Learn with confidence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Class navigation">
+      <div class="brand">
+        <span class="brand-symbol" aria-hidden="true">✳</span>
+        <span class="brand-name">OpenBook</span>
+      </div>
+
+      <div class="sidebar-content">
+        <p class="menu-label">Explore classes</p>
+        <nav class="class-list" aria-label="Available classes">
+          <a class="class-link active" href="#coming-soon"><span class="class-icon">∑</span><span>Mathematics</span><span class="class-state">soon</span></a>
+          <a class="class-link" href="#coming-soon"><span class="class-icon">Aa</span><span>Languages</span><span class="class-state">soon</span></a>
+          <a class="class-link" href="#coming-soon"><span class="class-icon">◌</span><span>Science</span><span class="class-state">soon</span></a>
+          <a class="class-link" href="#coming-soon"><span class="class-icon">⌁</span><span>History</span><span class="class-state">soon</span></a>
+        </nav>
+      </div>
+
+      <div class="sidebar-bottom">
+        <span class="sidebar-star">✦</span>
+        <p>Take your time.<br><strong>Get the idea.</strong></p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <button class="menu-toggle" type="button" aria-label="Toggle class navigation" aria-controls="sidebar" aria-expanded="true">
+          <span></span><span></span><span></span>
+        </button>
+        <form class="search" role="search">
+          <label for="site-search">Search</label>
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="site-search" type="search" placeholder="Search a subject or topic" autocomplete="off">
+          <kbd>⌘ K</kbd>
+        </form>
+        <span class="status"><i></i> Coming soon</span>
+      </header>
+
+      <section class="hero" id="coming-soon">
+        <div class="hero-copy">
+          <p class="eyebrow">A new way to study</p>
+          <h1>Make room for<br><em>aha</em> moments.</h1>
+          <p class="hero-text">OpenBook will turn tricky school topics into clear, friendly lessons you can actually follow. One idea, one example, one step at a time.</p>
+          <div class="hero-signoff"><span></span> Your learning space is taking shape</div>
+        </div>
+
+        <div class="hero-art" aria-label="Illustration of a student studying">
+          <div class="shape shape-one"></div>
+          <div class="shape shape-two"></div>
+          <div class="shape shape-three"></div>
+          <div class="paper-card">
+            <div class="paper-top"><span>OPENBOOK / 001</span><span>NOTES</span></div>
+            <div class="paper-lines"><span></span><span></span><span></span></div>
+            <div class="formula">a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></div>
+            <div class="paper-caption">understand the why</div>
+          </div>
+          <div class="art-label label-green">learn<br>curiously</div>
+          <div class="art-label label-coral">step<br>by step</div>
+        </div>
+      </section>
+
+      <section class="future-section" aria-labelledby="future-title">
+        <div class="section-intro">
+          <p class="eyebrow">What is on the way</p>
+          <h2 id="future-title">A clearer path<br>through school.</h2>
+        </div>
+        <div class="feature-list">
+          <article class="feature">
+            <span class="feature-number">01</span>
+            <div><h3>Choose your class</h3><p>Find Mathematics, Languages, Science, and History in one calm, organized place.</p></div>
+          </article>
+          <article class="feature feature-accent">
+            <span class="feature-number">02</span>
+            <div><h3>Follow the lesson</h3><p>Explore focused topics with explanations, diagrams, and examples that build on each other.</p></div>
+          </article>
+          <article class="feature">
+            <span class="feature-number">03</span>
+            <div><h3>Practice when ready</h3><p>Future quizzes will let you try calculations and understand your answers, right or wrong.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer"><span>OpenBook</span><span>Learning is a process, not a race.</span></footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
