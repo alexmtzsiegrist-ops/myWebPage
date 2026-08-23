@@ -1,73 +1,46 @@
-# Student Learning Website Plan
+# OpenBook: Lernwebsite für Schweizer Kinder
 
-## What this website will be
+## Ziel der Website
 
-This will be a simple, friendly learning website for students. Its goal is to make school subjects easier to understand by explaining one topic at a time with clear language and examples.
+OpenBook wird eine freundliche Lernwebsite für Schülerinnen und Schüler. Schwierige Schulthemen sollen mit klaren Erklärungen und Beispielen einfacher verständlich werden.
 
-The first version will be an information page only. The learning tools will be added later.
+Die aktuelle Version ist nur die Startseite. Lernlektionen, Rechner und Quizze kommen später dazu.
 
-## Visual design
+## Gestaltung
 
-The website should look modern with a small playful touch. It should feel friendly and interesting for students, rather than looking like a boring textbook.
+Die Website soll modern und ein bisschen verspielt aussehen. Sie soll interessant und kinderfreundlich wirken und nicht wie ein langweiliges Schulbuch.
 
-The main color palette should use green and cream. The colors should feel fresh, welcoming, and easy to look at while studying.
+Die wichtigsten Farben sind Grün und Hellcreme. Die Farben sollen frisch, ruhig und angenehm zum Lernen sein.
 
-The design should combine expressive headings with simple, highly readable body text. This will make the website feel modern while keeping explanations easy to follow.
+Für Überschriften gibt es eine ausdrucksstarke Schrift. Der normale Text bleibt einfach und gut lesbar.
 
-The website should use diagrams and illustrations to explain ideas such as geometry. It can also use relevant photographs to make subjects feel connected to the real world.
+Zeichnungen, Diagramme und passende Fotos können später helfen, neue Ideen verständlich zu machen.
 
-Students should feel calm and confident, motivated to practice, curious to explore, and focused while using the website.
+Die Website soll Ruhe, Selbstvertrauen, Motivation, Neugier und Konzentration vermitteln.
 
-## Main layout
+## Startseite und Navigation
 
-The website will have a collapsible menu bar on the left side of the screen. This menu will contain the different classes, such as:
+Links gibt es eine einklappbare Klassen-Navigation. Sie enthält:
 
-- Mathematics
-- German
-- English
-- French
-- Science
-- History
+- Mathematik
+- Deutsch
+- Englisch
+- Französisch
+- Natur und Technik
+- Geschichte
 
-When a student selects a class, a second menu will show the topics inside that class.
+Oben befindet sich eine Suchleiste. Später können Kinder dort schnell eine Klasse oder ein Thema finden.
 
-There should also be a search bar near the top middle-right of the page so students can quickly find a class, topic, or lesson.
+Wenn eine Klasse geöffnet wird, erscheint daneben ein zweites Menü. Dieses Menü zeigt im Moment noch keine Themen. Es zeigt nur, dass die Inhalte bald kommen, und kann ebenfalls eingeklappt werden.
 
-## Mathematics topics
+Beim Öffnen einer Klasse verändert sich die Hauptseite und zeigt einen kurzen, lustigen Satz. Bei Mathematik steht zum Beispiel: «Mathe ruft.» Die Karte mit der Formel $a^2 + b^2 = c^2$ steht dabei über dem Titel.
 
-The Mathematics menu may include:
+## Spätere Funktionen
 
-- Calculator
-- Geometry
-- Algebra
-- The Pythagorean theorem
-- Fractions
-- Equations
+In Zukunft bekommt jede Klasse eigene Themen und Erklärseiten. Eine Erklärseite soll zeigen, was eine Idee bedeutet, welche Regeln wichtig sind und wie man eine Aufgabe Schritt für Schritt löst.
 
-Each topic will have its own page with an explanation and worked examples.
+Später können auch Quizze dazukommen. Kinder können dann Rechnungen oder Antworten eingeben und sehen, ob sie richtig sind. Bei einer falschen Antwort soll die Website den Fehler freundlich erklären.
 
-## Topic page
+## Aktueller Stand
 
-A topic page will explain:
-
-1. What the idea means.
-2. Which rules or formulas are important.
-3. A step-by-step example.
-4. A second example for the student to follow.
-
-For example, the Pythagorean theorem page could explain that, in a right triangle, $a^2 + b^2 = c^2$, and then show how to find a missing side.
-
-## Future quiz feature
-
-Later, each topic may include a quiz. Students will be able to type their calculations or answers and check whether they are correct. The website could also explain mistakes and offer another example when an answer is wrong.
-
-## Current stage
-
-At the moment, this is only a plan for the website. Visitors should be able to read what is coming, but they cannot open lessons, use a calculator, or complete quizzes yet.
-
-
-
-## main pages
-
-when you open the classes in the menu bar, it will open a funny main page with a funny scentence.
-there will also open a second menu bar where you see the different topics of the classes
+Im Moment ist nur die Startseite fertig. Die Navigation kann geöffnet und eingeklappt werden, aber die Klassen und Themen enthalten noch keine Lerninhalte.
