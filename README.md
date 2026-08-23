@@ -23,7 +23,9 @@ Students should feel calm and confident, motivated to practice, curious to explo
 The website will have a collapsible menu bar on the left side of the screen. This menu will contain the different classes, such as:
 
 - Mathematics
-- Languages
+- German
+- English
+- French
 - Science
 - History
 
