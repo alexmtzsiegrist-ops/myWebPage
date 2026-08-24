@@ -3,32 +3,53 @@ const sidebar = document.querySelector('.sidebar');
 const appShell = document.querySelector('.app-shell');
 const topicSidebar = document.querySelector('.topic-sidebar');
 const topicClass = document.querySelector('#topic-class');
+const topicList = document.querySelector('.topic-list');
 const heroTitle = document.querySelector('#hero-title');
 const heroText = document.querySelector('#hero-text');
 
 const classContent = {
   Physik: {
-    sentence: 'Die Welt steckt voller Kräfte, Bewegungen und kleiner Experimente zum Staunen.'
+    sentence: 'Die Welt steckt voller Kräfte, Bewegungen und kleiner Experimente zum Staunen.',
+    topics: ['Messen und Einheiten', 'Kräfte und Bewegung', 'Arbeit und Energie', 'Wärme und Temperatur', 'Schall und Wellen', 'Elektrizität', 'Magnetismus', 'Licht und Optik']
   },
   Mathematik: {
-    sentence: 'Zahlen sind einfach Buchstaben mit ausgezeichneten Manieren.'
+    sentence: 'Zahlen sind einfach Buchstaben mit ausgezeichneten Manieren.',
+    topics: ['Zahlen und Rechnen', 'Brüche und Dezimalzahlen', 'Prozentrechnen', 'Terme und Gleichungen', 'Funktionen', 'Geometrie', 'Wahrscheinlichkeit', 'Statistik']
   },
-  German: {
-    sentence: 'Jedes lange deutsche Wort hat einmal als kleines Wort angefangen.'
+  Deutsch: {
+    sentence: 'Jedes lange deutsche Wort hat einmal als kleines Wort angefangen.',
+    topics: ['Lesen und Verstehen', 'Grammatik', 'Rechtschreibung', 'Wortarten', 'Satzbau', 'Texte schreiben', 'Literatur', 'Präsentieren']
   },
-  English: {
-    sentence: 'Wörter sind kleine Türen. Such dir eines aus und schau, wohin es führt.'
+  Englisch: {
+    sentence: 'Wörter sind kleine Türen. Such dir eines aus und schau, wohin es führt.',
+    topics: ['Vocabulary', 'Grammar', 'Reading', 'Writing', 'Listening', 'Speaking', 'Tenses', 'Everyday English']
   },
-  French: {
-    sentence: 'Ein wenig Übung heute lässt morgen alles magnifique klingen.'
+  Französisch: {
+    sentence: 'Ein wenig Übung heute lässt morgen alles magnifique klingen.',
+    topics: ['Vocabulaire', 'Grammaire', 'Prononciation', 'Compréhension', 'Écrire des textes', 'Parler français', 'Les temps', 'La culture']
   },
   'Natur und Technik': {
-    sentence: 'Neugier ist dein Kopf, der einfach genauer hinschauen möchte.'
+    sentence: 'Neugier ist dein Kopf, der einfach genauer hinschauen möchte.',
+    topics: ['Forschen und Beobachten', 'Stoffe und Teilchen', 'Pflanzen', 'Tiere und Lebensräume', 'Der menschliche Körper', 'Erde und Klima', 'Technik im Alltag', 'Energie und Umwelt']
   },
-  History: {
-    sentence: 'Die Vergangenheit ist voller Menschen, die auch nicht wussten, was als Nächstes passiert.'
+  Geschichte: {
+    sentence: 'Die Vergangenheit ist voller Menschen, die auch nicht wussten, was als Nächstes passiert.',
+    topics: ['Zeit und Quellen', 'Frühe Hochkulturen', 'Antike', 'Mittelalter', 'Reformation', 'Industrialisierung', 'Weltkriege', 'Die Welt heute']
   }
 };
+
+function renderTopics(selectedClass) {
+  topicList.innerHTML = classContent[selectedClass].topics
+    .map((topic, index) => `<button class="topic-link${index === 0 ? ' active' : ''}" type="button">${topic}</button>`)
+    .join('');
+
+  topicList.querySelectorAll('.topic-link').forEach((topicLink) => {
+    topicLink.addEventListener('click', () => {
+      topicList.querySelectorAll('.topic-link').forEach((link) => link.classList.remove('active'));
+      topicLink.classList.add('active');
+    });
+  });
+}
 
 menuToggle.addEventListener('click', () => {
   if (window.innerWidth <= 680) {
@@ -50,6 +71,7 @@ document.querySelectorAll('.class-link').forEach((link) => {
     document.querySelectorAll('.class-link').forEach((classLink) => classLink.classList.remove('active'));
     link.classList.add('active');
     topicClass.textContent = selectedClass;
+    renderTopics(selectedClass);
     appShell.classList.toggle('math-selected', selectedClass === 'Mathematik');
     heroTitle.innerHTML = selectedClass === 'Mathematik'
       ? 'Mathe<br><em>ruft.</em>'
@@ -63,6 +85,8 @@ document.querySelectorAll('.class-link').forEach((link) => {
     }
   });
 });
+
+renderTopics('Mathematik');
 
 document.addEventListener('keydown', (event) => {
   if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
