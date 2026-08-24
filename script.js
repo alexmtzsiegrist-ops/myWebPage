@@ -7,6 +7,9 @@ const heroTitle = document.querySelector('#hero-title');
 const heroText = document.querySelector('#hero-text');
 
 const classContent = {
+  Physik: {
+    sentence: 'Die Welt steckt voller Kräfte, Bewegungen und kleiner Experimente zum Staunen.'
+  },
   Mathematik: {
     sentence: 'Zahlen sind einfach Buchstaben mit ausgezeichneten Manieren.'
   },

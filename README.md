@@ -23,6 +23,7 @@ Die Website soll Ruhe, Selbstvertrauen, Motivation, Neugier und Konzentration ve
 Links gibt es eine einklappbare Klassen-Navigation. Sie enthält:
 
 - Mathematik
+- Physik
 - Deutsch
 - Englisch
 - Französisch
