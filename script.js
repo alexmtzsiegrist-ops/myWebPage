@@ -28,9 +28,13 @@ const classContent = {
     sentence: 'Ein wenig Übung heute lässt morgen alles magnifique klingen.',
     topics: ['Vocabulaire', 'Grammaire', 'Prononciation', 'Compréhension', 'Écrire des textes', 'Parler français', 'Les temps', 'La culture']
   },
-  'Natur und Technik': {
-    sentence: 'Neugier ist dein Kopf, der einfach genauer hinschauen möchte.',
-    topics: ['Forschen und Beobachten', 'Stoffe und Teilchen', 'Pflanzen', 'Tiere und Lebensräume', 'Der menschliche Körper', 'Erde und Klima', 'Technik im Alltag', 'Energie und Umwelt']
+  Chemie: {
+    sentence: 'In der Chemie wird sichtbar, wie Stoffe sich verbinden, verändern und reagieren.',
+    topics: ['Stoffe und Eigenschaften', 'Teilchenmodell', 'Atome und Elemente', 'Periodensystem', 'Chemische Reaktionen', 'Säuren und Basen', 'Salze', 'Chemie im Alltag']
+  },
+  Biologie: {
+    sentence: 'Biologie zeigt dir, wie das Leben aufgebaut ist und miteinander verbunden bleibt.',
+    topics: ['Zellen und Zellbestandteile', 'Pflanzen', 'Tiere und Lebensräume', 'Der menschliche Körper', 'Ernährung und Gesundheit', 'Ökosysteme', 'Evolution', 'Verhalten']
   },
   Geschichte: {
     sentence: 'Die Vergangenheit ist voller Menschen, die auch nicht wussten, was als Nächstes passiert.',

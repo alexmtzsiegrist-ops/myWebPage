@@ -27,7 +27,8 @@ Links gibt es eine einklappbare Klassen-Navigation. Sie enthält:
 - Deutsch
 - Englisch
 - Französisch
-- Natur und Technik
+- Chemie
+- Biologie
 - Geschichte
 
 Oben befindet sich eine Suchleiste. Später können Kinder dort schnell eine Klasse oder ein Thema finden.
